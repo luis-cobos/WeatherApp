@@ -31,3 +31,26 @@
     transform: rotate(360deg);
   }
 }
+.details { 
+  background: #f5f3f3;
+  height: 85vh;
+  width: calc(100%-40px);
+  overflow: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media (max-width: 64em) {
+  .details { 
+    height: 60vh;
+    width: calc(100%-40px);
+  }
+  
+}
+
+.SearchItem {
+    width: theme.spacing.unit * 9;
+    height: '100%';
+    position:left;
+    display: 'flex';
+}
