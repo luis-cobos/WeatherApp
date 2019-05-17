@@ -12,8 +12,12 @@
 }
 
 .forecast-title {
+<<<<<<< HEAD
     color: #888888;
     font-family: 'Roboto', sans-serif;
+=======
+    color: white;
+>>>>>>> 297ff11fc2bc261a159f72e736901baa7b728441
     padding-top: 15px;
     padding-bottom: 15px;
 }

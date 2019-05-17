@@ -11,12 +11,17 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-flexbox-grid": "^2.1.2",
+<<<<<<< HEAD
     "react-redux": "^7.0.2",
     "react-scripts": "2.1.8",
     "react-weathericons": "^1.0.4",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0"
+=======
+    "react-scripts": "2.1.8",
+    "react-weathericons": "^1.0.4"
+>>>>>>> 297ff11fc2bc261a159f72e736901baa7b728441
   },
   "scripts": {
     "start": "react-scripts start",

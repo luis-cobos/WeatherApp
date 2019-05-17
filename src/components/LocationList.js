@@ -8,7 +8,11 @@ import './styles.css';
 const LocationList = ( {cities, onSelectedLocation} ) => {
 
    const handleWeatherLocationClick = city => {
+<<<<<<< HEAD
         console.log(`handleWeatherLocationClick city: ${city}`);
+=======
+        console.log("handleWeatherLocationClick");
+>>>>>>> 297ff11fc2bc261a159f72e736901baa7b728441
         onSelectedLocation(city);
     };
 
