@@ -6,10 +6,11 @@ import LocationListContainer from './containers/LocationListContainer';
 import ForecastExtendedContainer from './containers/ForecastExtendedContainer';
 import Head from './components/Head';
 import './App.css';
+import { city } from './reducers/city';
 
 const cities = [
   'Aguascalientes',
-  'Ciudad de México,mx',
+  'Ciudad de México',
   'Jalisco',
   'Monterrey',
   'California,us',
@@ -22,12 +23,11 @@ const cities = [
 class App extends Component {
 
   render() {
-
     return (
 
         <Grid>
           <Row>
-                <Head />
+                <Head/>
           </Row>
           <Row>
             <Col xs={12} md={6}>

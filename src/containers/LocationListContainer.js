@@ -8,7 +8,8 @@ import {setSelectedCity} from './../actions';
 class LocationListContainer extends Component {
 
     handleSelectedLocation = city => {
-        console.log (city);
+        console.log (`Ciudad ${city}`);
+        console.log (`props en locationListCont ${this.props}`);
         this.props.setCity(city);
         
       }
