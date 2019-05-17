@@ -25,7 +25,7 @@ export const setSelectedCity = payload => {
                   (data.json())
                   ).then(
                     weather_data => {
-                    console.log(weather_data);
+                    console.log(`action: ${weather_data}`);
                     const forecastData = transformForecast(weather_data);
                     console.log(`forecastData: ${forecastData}`);
 
