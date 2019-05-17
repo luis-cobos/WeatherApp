@@ -17,13 +17,10 @@ import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import Button from '@material-ui/core/Button';
-<<<<<<< HEAD
 
 import {getForecastDataFromCities, getCity} from '../../reducers';
 import {connect} from 'react-redux';
 
-=======
->>>>>>> b1e524d5b5d1f736d8b67d94dee668b7052eb1b2
 
 const styles = theme => ({
   root: {
@@ -109,10 +106,7 @@ class PrimarySearchAppBar extends React.Component {
     city,
   }
   };
-<<<<<<< HEAD
 
-=======
->>>>>>> b1e524d5b5d1f736d8b67d94dee668b7052eb1b2
 
 
   handleProfileMenuOpen = event => {
@@ -141,38 +135,6 @@ class PrimarySearchAppBar extends React.Component {
     console.log(`Props:  ${this.props.city}`);
     console.log(`Ciudad seleccionada:  ${this.state.city}`);
 
-    //console.log(this.state.selected);
-    //this.setState({city: this.state.selected});
-    //console.log(this.state.city);
-
-  }
-
-  handleProfileMenuOpen = event => {
-    this.setState({ anchorEl: event.currentTarget });
-  };
-
-  handleMenuClose = () => {
-    this.setState({ anchorEl: null });
-    this.handleMobileMenuClose();
-  };
-
-  handleMobileMenuOpen = event => {
-    this.setState({ mobileMoreAnchorEl: event.currentTarget });
-  };
-
-  handleMobileMenuClose = () => {
-    this.setState({ mobileMoreAnchorEl: null });
-  };
-
-  handleSearchByCity= event => {
-    this.setState({city: event.target.value});
-    //console.log(event.target.value);
-  }
-
-  onClickSearchByCity = city => {
-    console.log(`antes ${this.state.city}`);
-    this.props.cities.push(this.state.city);
-    console.log(this.props.cities);
     //console.log(this.state.selected);
     //this.setState({city: this.state.selected});
     //console.log(this.state.city);
@@ -247,7 +209,7 @@ class PrimarySearchAppBar extends React.Component {
                 <SearchIcon />
               </div>
               <InputBase name="ciudad" onChange={this.handleSearchByCity}
-                placeholder="Search…"
+                placeholder="Searchâ€¦"
                 classes={{
                   root: classes.inputRoot,
                   input: classes.inputInput,
