@@ -32,11 +32,7 @@
   }
 }
 .details { 
-<<<<<<< HEAD
   background: #f5f3f3;
-=======
-  background: #999999;
->>>>>>> 297ff11fc2bc261a159f72e736901baa7b728441
   height: 85vh;
   width: calc(100%-40px);
   overflow: auto;
@@ -46,12 +42,8 @@
 
 @media (max-width: 64em) {
   .details { 
-<<<<<<< HEAD
     height: 60vh;
     width: calc(100%-40px);
-=======
-    height: 32vh;
->>>>>>> 297ff11fc2bc261a159f72e736901baa7b728441
   }
   
 }
@@ -61,8 +53,4 @@
     height: '100%';
     position:left;
     display: 'flex';
-<<<<<<< HEAD
-=======
-    cursor: pointer;
->>>>>>> 297ff11fc2bc261a159f72e736901baa7b728441
 }
