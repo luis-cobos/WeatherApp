@@ -9,7 +9,7 @@ import './App.css';
 
 const cities = [
   'Aguascalientes',
-  'Ciudad de México,mx',
+  'Ciudad de México',
   'Jalisco',
   'Monterrey',
   'California,us',
@@ -27,7 +27,7 @@ class App extends Component {
 
         <Grid>
           <Row>
-                <Head />
+                <Head cities={cities}/>
           </Row>
           <Row>
             <Col xs={12} md={6}>

@@ -10,9 +10,9 @@ const Location = ({city}) => (
     //Destructuring
     //const {city} = props;
     <div className="locationCont">
-        <h2>
+        <h5>
             {city}
-        </h2>
+        </h5>
     </div>
     );
 
