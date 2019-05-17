@@ -31,11 +31,7 @@ const icons = {
 const getWeatherIcon = weatherState => {
     const icon = icons[weatherState];
 
-<<<<<<< HEAD
     const sizeIcon="2x";
-=======
-    const sizeIcon="4x";
->>>>>>> 297ff11fc2bc261a159f72e736901baa7b728441
 
     if (icon)
     return <WeatherIcons className="wicon" name={icon} size={sizeIcon} />
